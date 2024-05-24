@@ -5,12 +5,129 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Odin Admin Dashboard</title>
         <link rel="stylesheet" href="styles/layout.css" />
+        <link rel="stylesheet" href="styles/left-menu.css" />
+        <link rel="stylesheet" href="styles/top.css" />
     </head>
     <body>
         <div class="root">
-            <div class="left-menu">Left menu</div>
+            <div class="left-menu">
+                <div class="logo-container">
+                    <img
+                        class="logo"
+                        src="icons/view-grid-plus.svg"
+                        alt="view grid logo"
+                    />
+                    <h1 class="logo-text">Dashboard</h1>
+                </div>
+                <div class="links1">
+                    <a href="#" class="menu-button">
+                        <img src="icons/home.svg" alt="home icon" />
+                        <p>Home</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img
+                            src="icons/card-account-details.svg"
+                            alt="id icon"
+                        />
+                        <p>Profile</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img src="icons/message.svg" alt="speech box" />
+                        <p>Messages</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img src="icons/history.svg" alt="clock" />
+                        <p>History</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img src="icons/note-multiple.svg" alt="pages" />
+                        <p>Tasks</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img src="icons/account-group.svg" alt="people" />
+                        <p>Communities</p>
+                    </a>
+                </div>
+                <div class="links2">
+                    <a href="#" class="menu-button">
+                        <img src="icons/cog.svg" alt="cog" />
+                        <p>Settings</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img src="icons/help-box.svg" alt="question mark" />
+                        <p>Support</p>
+                    </a>
+                    <a href="#" class="menu-button">
+                        <img src="icons/shield-check.svg" alt="shield" />
+                        <p>Privacy</p>
+                    </a>
+                </div>
+            </div>
             <div class="right">
-                <div class="top">Top</div>
+                <div class="top">
+                    <div class="top-bar">
+                        <div class="search-container">
+                            <img
+                                class="search-icon"
+                                src="icons/magnify.svg"
+                                alt=""
+                            /><input
+                                type="text"
+                                name="search-box"
+                                id="search-box"
+                                class="search-box"
+                                placeholder="What are you looking for?"
+                            />
+                        </div>
+                        <div class="top-items">
+                            <img
+                                class="notification-icon"
+                                src="icons/bell-ring-outline.svg"
+                                alt="notifications icon"
+                            />
+                            <img
+                                class="user-profile"
+                                src="profile-pictures/placeholder.png"
+                                alt=""
+                            />
+                            <h2 class="user-name">Morgan Oakley</h2>
+                        </div>
+                    </div>
+                    <div class="bottom-bar">
+                        <div class="greeting">
+                            <img
+                                src="profile-pictures/placeholder.png"
+                                alt="profile picture"
+                            />
+                            <div class="greeting-text">
+                                <p class="greeting-start">Hi there,</p>
+                                <div class="greeting-user-info">
+                                    <h2 class="greeting-user-name">
+                                        Morgan Oakley
+                                    </h2>
+                                    <h2 class="greeting-user-tag">(@morgan)</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-actions">
+                            <input
+                                type="button"
+                                value="New"
+                                class="top-action-button"
+                            />
+                            <input
+                                type="button"
+                                value="Upload"
+                                class="top-action-button"
+                            />
+                            <input
+                                type="button"
+                                value="Share"
+                                class="top-action-button"
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div class="main">Main</div>
             </div>
         </div>

@@ -1,0 +1,48 @@
+.logo-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 16px;
+    gap: 16px;
+}
+
+.logo {
+    width: 75px;
+    filter: invert();
+}
+
+.logo-text {
+    font-size: 32px;
+}
+
+.links1,
+.links2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button > img {
+    width: 20px;
+    filter: invert();
+}
+
+.menu-button > p {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-button {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+    transition: background-color 200ms ease-in-out;
+    background-color: none;
+}
+
+.menu-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
